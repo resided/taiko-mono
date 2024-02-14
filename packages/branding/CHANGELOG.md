@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/resided/taiko-mono/compare/branding-v0.3.0...branding-v0.4.0) (2024-02-14)
+
+
+### Features
+
+* **bridge-ui-v2:** Activities page ([#14504](https://github.com/resided/taiko-mono/issues/14504)) ([4dff4b3](https://github.com/resided/taiko-mono/commit/4dff4b317e0ecda43c9804a9e04d2f22c8332a60))
+
 ## [0.3.0](https://github.com/taikoxyz/taiko-mono/compare/branding-v0.2.0...branding-v0.3.0) (2023-08-15)
 
 
