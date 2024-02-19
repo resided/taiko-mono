@@ -1,5 +1,78 @@
 # Changelog
 
+## [3.0.0](https://github.com/resided/taiko-mono/compare/bridge-ui-v2-v2.9.0...bridge-ui-v2-v3.0.0) (2024-02-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* **bridge-ui-v2:** bridge UI version 2.1  ([#15775](https://github.com/resided/taiko-mono/issues/15775))
+
+### Features
+
+* **bridge-ui-v2:** add BLL warning ([#14723](https://github.com/resided/taiko-mono/issues/14723)) ([6e5b789](https://github.com/resided/taiko-mono/commit/6e5b789e06d74c98c22a18af7f59ee94572d0866))
+* **bridge-ui-v2:** add dialog for claim with insufficient funds ([#14742](https://github.com/resided/taiko-mono/issues/14742)) ([75a1c71](https://github.com/resided/taiko-mono/commit/75a1c71851d1ae348b503ccb8b318760e97e6b0e))
+* **bridge-ui-v2:** add title to toast ([#14962](https://github.com/resided/taiko-mono/issues/14962)) ([91ff244](https://github.com/resided/taiko-mono/commit/91ff2446dd07354ee88e1357184ba5063bb43db6))
+* **bridge-ui-v2:** allow bridging to all layers ([#14525](https://github.com/resided/taiko-mono/issues/14525)) ([e25e0cd](https://github.com/resided/taiko-mono/commit/e25e0cd060e651f1e626d2e8a104e261ff90e94e))
+* **bridge-ui-v2:** bridge UI version 2.1  ([#15775](https://github.com/resided/taiko-mono/issues/15775)) ([81359fd](https://github.com/resided/taiko-mono/commit/81359fd9201bb8a39095e6bdbcb3ac977a7bb5ef))
+* **bridge-ui-v2:** close dialogs with ESC key ([#14700](https://github.com/resided/taiko-mono/issues/14700)) ([dbf7a24](https://github.com/resided/taiko-mono/commit/dbf7a24a32a4518f4a9dbbfbbead732ab8a9b548))
+* **bridge-ui-v2:** confirmation step ([#15083](https://github.com/resided/taiko-mono/issues/15083)) ([088678c](https://github.com/resided/taiko-mono/commit/088678c1d476f832bc60de8fcc8b26c54eee5a0b))
+* **bridge-ui-v2:** dynamic import of NFT data via API ([#14928](https://github.com/resided/taiko-mono/issues/14928)) ([946c337](https://github.com/resided/taiko-mono/commit/946c337070eb2f2a9a2aa1f7314d7469ccd1b818))
+* **bridge-ui-v2:** fetch cross-chain metadata ([#15206](https://github.com/resided/taiko-mono/issues/15206)) ([45988b9](https://github.com/resided/taiko-mono/commit/45988b9f1b0468365756a4bad7dc026dd7e01b23))
+* **bridge-ui-v2:** Import step refinement ([#15020](https://github.com/resided/taiko-mono/issues/15020)) ([433fac4](https://github.com/resided/taiko-mono/commit/433fac4ccfb009a6ceca8ed62d391290744b142c))
+* **bridge-ui-v2:** Improve refreshing users balance ([#14651](https://github.com/resided/taiko-mono/issues/14651)) ([8028a49](https://github.com/resided/taiko-mono/commit/8028a49ea2dfc123b1c818afb722a029d3743e5c))
+* **bridge-ui-v2:** insufficient funds modal ([#14759](https://github.com/resided/taiko-mono/issues/14759)) ([c6e23ad](https://github.com/resided/taiko-mono/commit/c6e23ad79eeb899551572b0a2a4abcac02339893))
+* **bridge-ui-v2:** L2 &lt;-&gt; L2 bridging with multi-hop ([#15395](https://github.com/resided/taiko-mono/issues/15395)) ([79c44d7](https://github.com/resided/taiko-mono/commit/79c44d742bf7ebd97394812974530a6e769d576e))
+* **bridge-ui-v2:** L2 &lt;-&gt; L2 bridging with multi-hops ([#15393](https://github.com/resided/taiko-mono/issues/15393)) ([eff6aa2](https://github.com/resided/taiko-mono/commit/eff6aa2fb698b574b002d8d3414513648708f2d2))
+* **bridge-ui-v2:** manual NFT import step ([#14842](https://github.com/resided/taiko-mono/issues/14842)) ([c85e162](https://github.com/resided/taiko-mono/commit/c85e1629d0b9b544880f65f0e4050456579c87d1))
+* **bridge-ui-v2:** NFT bridge stepper ([#14811](https://github.com/resided/taiko-mono/issues/14811)) ([90e19fc](https://github.com/resided/taiko-mono/commit/90e19fc8b2e76d7f049b2ceedd7a54992b85b398))
+* **bridge-ui-v2:** NFT bridging ([#14949](https://github.com/resided/taiko-mono/issues/14949)) ([36c5ccd](https://github.com/resided/taiko-mono/commit/36c5ccda09e0d7ef062aff33e98548314486e437))
+* **bridge-ui-v2:** nft claiming ([#14960](https://github.com/resided/taiko-mono/issues/14960)) ([b60a7e2](https://github.com/resided/taiko-mono/commit/b60a7e2a6b7bc09cbb622ad9873d88c158707490))
+* **bridge-ui-v2:** NFT transaction page ([#15084](https://github.com/resided/taiko-mono/issues/15084)) ([49741c5](https://github.com/resided/taiko-mono/commit/49741c56be4dcd456b0e9f63aebb60b7c3d6aa22))
+* **bridge-ui-v2:** review step ([#14940](https://github.com/resided/taiko-mono/issues/14940)) ([c079223](https://github.com/resided/taiko-mono/commit/c0792230bab8c245ad3b779f695a7bdd0f598fc8))
+* **bridge-ui-v2:** Style adjustments for dialogs ([#14632](https://github.com/resided/taiko-mono/issues/14632)) ([148d6aa](https://github.com/resided/taiko-mono/commit/148d6aa39dd269d000b964ff6553e8646885d8f4))
+* **bridge-ui-v2:** Styling adjustments ([#14588](https://github.com/resided/taiko-mono/issues/14588)) ([85bef05](https://github.com/resided/taiko-mono/commit/85bef055c8778a473fff41318b06792c151efa52))
+* **bridge-ui-v2:** styling adjustments for dialogs ([#14666](https://github.com/resided/taiko-mono/issues/14666)) ([91c6284](https://github.com/resided/taiko-mono/commit/91c6284e2da231233fdb9ad8adfecb7790d6b90a))
+* **bridge-ui-v2:** truncate-chainname ([#14603](https://github.com/resided/taiko-mono/issues/14603)) ([bdc9c43](https://github.com/resided/taiko-mono/commit/bdc9c434ba43bb213c79b03da83b090693658a54))
+* **bridge-ui-v2:** Update encoded signal proof in BridgeProver.ts ([#15348](https://github.com/resided/taiko-mono/issues/15348)) ([5e06cd9](https://github.com/resided/taiko-mono/commit/5e06cd99966ad0ca5f2a2c39bb63992658dd7458))
+* **bridge-ui-v2:** updated UI to work with updated protocol ([#15322](https://github.com/resided/taiko-mono/issues/15322)) ([f8d2c03](https://github.com/resided/taiko-mono/commit/f8d2c03f3ccaf835fb5f8bab34b2d63f4c633e97))
+* **bridge-ui-v2:** upgrade walletconnect from v2 to v3 ([#14999](https://github.com/resided/taiko-mono/issues/14999)) ([dd76ddc](https://github.com/resided/taiko-mono/commit/dd76ddc797d55773ab7647983133ab6a8e8a4192))
+
+
+### Bug Fixes
+
+* **bridge-ui-v2:** Add z-index for close button on mobile ([#14769](https://github.com/resided/taiko-mono/issues/14769)) ([6dff6fc](https://github.com/resided/taiko-mono/commit/6dff6fc9990bab20cf2042cab0010fac826e14e1))
+* **bridge-ui-v2:** Additional approval check ([#15624](https://github.com/resided/taiko-mono/issues/15624)) ([11b4716](https://github.com/resided/taiko-mono/commit/11b4716bd5954ec43cd3b6bca651193f6141cc1b))
+* **bridge-ui-v2:** approve button not updating ([#14746](https://github.com/resided/taiko-mono/issues/14746)) ([ccbfa9a](https://github.com/resided/taiko-mono/commit/ccbfa9a62d2f918a8c321e1c147ccc606f599bb0))
+* **bridge-ui-v2:** Bridged tokens do not require approval ([#15545](https://github.com/resided/taiko-mono/issues/15545)) ([d33e130](https://github.com/resided/taiko-mono/commit/d33e130710691713ea8ea04c4e36b8414e3caaaa))
+* **bridge-ui-v2:** bugfixes ([#15400](https://github.com/resided/taiko-mono/issues/15400)) ([ed47a15](https://github.com/resided/taiko-mono/commit/ed47a159e5a2e5be6e4896be7ccce3a0be20e09e))
+* **bridge-ui-v2:** build errors ([#14706](https://github.com/resided/taiko-mono/issues/14706)) ([f180bcd](https://github.com/resided/taiko-mono/commit/f180bcd188452f65542e18250652b9c243d4a303))
+* **bridge-ui-v2:** button disable status ([#14674](https://github.com/resided/taiko-mono/issues/14674)) ([4b304dc](https://github.com/resided/taiko-mono/commit/4b304dc37369ba7775fb3669b1e6af5967f95db8))
+* **bridge-ui-v2:** check destination funds for ETH ([#14762](https://github.com/resided/taiko-mono/issues/14762)) ([fa2e842](https://github.com/resided/taiko-mono/commit/fa2e842c256c28713c3ebd9a50a99f945048df12))
+* **bridge-ui-v2:** custom tokens from local storage ([#14677](https://github.com/resided/taiko-mono/issues/14677)) ([3ebf022](https://github.com/resided/taiko-mono/commit/3ebf0226606b9561ee60fa47ef7d292a3b843678))
+* **bridge-ui-v2:** Faucet no longer checking for destination chain ([#15594](https://github.com/resided/taiko-mono/issues/15594)) ([bfcab5e](https://github.com/resided/taiko-mono/commit/bfcab5ed5bb0d7b34f71c247a18bc818a3aee84a))
+* **bridge-ui-v2:** Fix dialogs being offset ([#14624](https://github.com/resided/taiko-mono/issues/14624)) ([2367c89](https://github.com/resided/taiko-mono/commit/2367c89940bbdc67de14d6fb71d138f9a2157d17))
+* **bridge-ui-v2:** fix ETH bridging ([#15549](https://github.com/resided/taiko-mono/issues/15549)) ([4921572](https://github.com/resided/taiko-mono/commit/4921572a56323d7e0fcb6049522fdab92d3ddb26))
+* **bridge-ui-v2:** fix for approval button not updating ([#15481](https://github.com/resided/taiko-mono/issues/15481)) ([62eebe4](https://github.com/resided/taiko-mono/commit/62eebe41c3dfbbba434d0b6719788d4c6bbc40a7))
+* **bridge-ui-v2:** fix for crosschain nft metadata ([#15488](https://github.com/resided/taiko-mono/issues/15488)) ([703c46e](https://github.com/resided/taiko-mono/commit/703c46eb4262cefdbae39780c50b20feb750f572))
+* **bridge-ui-v2:** fix unit tests ([#14679](https://github.com/resided/taiko-mono/issues/14679)) ([7ddd7ef](https://github.com/resided/taiko-mono/commit/7ddd7ef77e735fbcffecac538e206fb64e9c14bf))
+* **bridge-ui-v2:** fixed fee selection modal bugs ([#15754](https://github.com/resided/taiko-mono/issues/15754)) ([365b604](https://github.com/resided/taiko-mono/commit/365b604851fd7fe27e50d18af699346806bc8d9f))
+* **bridge-ui-v2:** fixing getFilterLogs errors ([#15468](https://github.com/resided/taiko-mono/issues/15468)) ([ea2d929](https://github.com/resided/taiko-mono/commit/ea2d92944f7303622dcf2e8ddfeb1cd7f7691f81))
+* **bridge-ui-v2:** improve claim message when not enough funds ([#14738](https://github.com/resided/taiko-mono/issues/14738)) ([ff938a0](https://github.com/resided/taiko-mono/commit/ff938a00733d399710bc2fcabc5c42a0960ee8ab))
+* **bridge-ui-v2:** Minor bugfixes and adjustments ([#15499](https://github.com/resided/taiko-mono/issues/15499)) ([6a5b6d8](https://github.com/resided/taiko-mono/commit/6a5b6d88896f5aca9eebd53f9754c74bce8c94e0))
+* **bridge-ui-v2:** minor fixes ([#15454](https://github.com/resided/taiko-mono/issues/15454)) ([cd84019](https://github.com/resided/taiko-mono/commit/cd84019fd80589fa8bc112b4f3038217b0389c0a))
+* **bridge-ui-v2:** minor styling fixes for mobile ([#15495](https://github.com/resided/taiko-mono/issues/15495)) ([e5c497d](https://github.com/resided/taiko-mono/commit/e5c497dadab0c950789a8e04dfadc5eb13b4ccda))
+* **bridge-ui-v2:** missing TTKO icon  ([#14754](https://github.com/resided/taiko-mono/issues/14754)) ([3bb4fd2](https://github.com/resided/taiko-mono/commit/3bb4fd28d24e644554c7a607ab362e081bb4039d))
+* **bridge-ui-v2:** NFT Id input should only allow numbers ([#15504](https://github.com/resided/taiko-mono/issues/15504)) ([05969fc](https://github.com/resided/taiko-mono/commit/05969fce51b6709ab3f0f92857c91b8871e56335))
+* **bridge-ui-v2:** processing fee ([#14696](https://github.com/resided/taiko-mono/issues/14696)) ([1103695](https://github.com/resided/taiko-mono/commit/1103695fa77265b8670be4ecaee2a5ead8e8e5c0))
+* **bridge-ui-v2:** processing fee and recipient not sticking ([#15125](https://github.com/resided/taiko-mono/issues/15125)) ([e9b82ea](https://github.com/resided/taiko-mono/commit/e9b82eaef0b578581dcf4566dd0582cf113ffc8b))
+* **bridge-ui-v2:** Show warnings on faucet correctly ([#14676](https://github.com/resided/taiko-mono/issues/14676)) ([861c7f3](https://github.com/resided/taiko-mono/commit/861c7f31f800813570579c4b0e7dc69956f4c04f))
+* **bridge-ui-v2:** update mint button state ([#14720](https://github.com/resided/taiko-mono/issues/14720)) ([3ee161b](https://github.com/resided/taiko-mono/commit/3ee161b7a1ebac006594961457e9e7f426ed29a2))
+* **bridge-ui-v2:** validate amount only if component is mounted ([#14757](https://github.com/resided/taiko-mono/issues/14757)) ([c506409](https://github.com/resided/taiko-mono/commit/c506409d6a41d84c110f6ba715f1bbf023d1e192))
+* **bridge-ui-v2:** validation of token balance  ([#14755](https://github.com/resided/taiko-mono/issues/14755)) ([40bbaf1](https://github.com/resided/taiko-mono/commit/40bbaf13df1db158073299f9b1b9ffc5d1c8123a))
+* fix typos in tests and comments ([#15028](https://github.com/resided/taiko-mono/issues/15028)) ([54bf597](https://github.com/resided/taiko-mono/commit/54bf597c89a7f22161eeeffd13c20fe0acb4e2d7))
+* **README.md:** minor typos ([#15139](https://github.com/resided/taiko-mono/issues/15139)) ([b91cc1a](https://github.com/resided/taiko-mono/commit/b91cc1a53ea6874bdf9ed5cf86460e691b21f799))
+* **repo:** fix some typos ([#15021](https://github.com/resided/taiko-mono/issues/15021)) ([5d5b72d](https://github.com/resided/taiko-mono/commit/5d5b72d7d53dc93abcc73f8d525a5e7dbfaf903d))
+
 ## [2.9.0](https://github.com/taikoxyz/taiko-mono/compare/bridge-ui-v2-v2.8.0...bridge-ui-v2-v2.9.0) (2023-10-18)
 
 
