@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.0.0](https://github.com/resided/taiko-mono/compare/relayer-v0.12.0...relayer-v1.0.0) (2024-02-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* **bridge-ui-v2:** bridge UI version 2.1  ([#15775](https://github.com/resided/taiko-mono/issues/15775))
+
+### Features
+
+* **bridge-ui-v2:** bridge UI version 2.1  ([#15775](https://github.com/resided/taiko-mono/issues/15775)) ([81359fd](https://github.com/resided/taiko-mono/commit/81359fd9201bb8a39095e6bdbcb3ac977a7bb5ef))
+* **eventindexer:** API documentation, swagger, github pages ([#14948](https://github.com/resided/taiko-mono/issues/14948)) ([5455267](https://github.com/resided/taiko-mono/commit/54552674fe8a6b0b4321afe1ef4d90d00d62f0e8))
+* **eventindexer:** Eventindexer and relayer a5 updates ([#14597](https://github.com/resided/taiko-mono/issues/14597)) ([87c9d53](https://github.com/resided/taiko-mono/commit/87c9d53fa9c6911aada78a1746839d14e4401916))
+* **eventindexer:** Track proposer/prover rewards, + generate tasks for total/per day ([#14690](https://github.com/resided/taiko-mono/issues/14690)) ([cc477b9](https://github.com/resided/taiko-mono/commit/cc477b97c00e8339a87c4d4502a0ee8ad811c10f))
+* **protocol, relayer:** Improved Taiko Protocol and Relayer Documentations ([#15440](https://github.com/resided/taiko-mono/issues/15440)) ([67ca2e1](https://github.com/resided/taiko-mono/commit/67ca2e1e0bfe5301efa854048cc5cb0f0dafe921))
+* **protocol:** Based Contestable Rollup with multi-proofs and multi-hop bridging ([#14705](https://github.com/resided/taiko-mono/issues/14705)) ([28000b3](https://github.com/resided/taiko-mono/commit/28000b3ca67714e4edb00b6416e05303ae2893b5))
+* **protocol:** multiple improvements & bug fixes ([#15255](https://github.com/resided/taiko-mono/issues/15255)) ([337c57c](https://github.com/resided/taiko-mono/commit/337c57c70f3b4ed1df9e6f4b808d814d1f1452e4))
+* **relayer, eventindexer:** move code to pkg folder, use new api subcommand for eventindexer/relayer ([#15502](https://github.com/resided/taiko-mono/issues/15502)) ([99dd1d2](https://github.com/resided/taiko-mono/commit/99dd1d276eb9505589d50cad10231691f9549727))
+* **relayer:** Add flag to be able to index past blocks to crawl for missed messages ([#15547](https://github.com/resided/taiko-mono/issues/15547)) ([d2eda59](https://github.com/resided/taiko-mono/commit/d2eda5966b463781c72580d4d30509422619824c))
+* **relayer:** Allow relayer to run in "target single transaction hash" mode ([#15546](https://github.com/resided/taiko-mono/issues/15546)) ([e500f3d](https://github.com/resided/taiko-mono/commit/e500f3d8f8bdf3755284b7306b521757f64ee632))
+* **relayer:** fix cost calculation for isProfitable ([#14767](https://github.com/resided/taiko-mono/issues/14767)) ([8e1c897](https://github.com/resided/taiko-mono/commit/8e1c89748fcb42e354d2219ceac2be1c668bcf31))
+* **relayer:** queue processor Prefetch ([#14765](https://github.com/resided/taiko-mono/issues/14765)) ([a37797a](https://github.com/resided/taiko-mono/commit/a37797a6115fda37e933b0742881649a411a29ef))
+* **relayer:** Relayer indexer/processor separation and refactor, messaging queue ([#14605](https://github.com/resided/taiko-mono/issues/14605)) ([15b0e50](https://github.com/resided/taiko-mono/commit/15b0e50c130687cac32eef97ba5f396f79ad933f))
+* **relayer:** Simplify event iterator code ([#15485](https://github.com/resided/taiko-mono/issues/15485)) ([77aafd2](https://github.com/resided/taiko-mono/commit/77aafd293ed954c73f7f8d268684c8affe1d5502))
+* **relayer:** support L2-L2 bridging ([#14711](https://github.com/resided/taiko-mono/issues/14711)) ([1410217](https://github.com/resided/taiko-mono/commit/1410217363077ea6179080fca4a7aeadc6c7d149))
+
+
+### Bug Fixes
+
+* **eventindexer:** update config tests ([#14912](https://github.com/resided/taiko-mono/issues/14912)) ([beab49b](https://github.com/resided/taiko-mono/commit/beab49bd8f085b1e285fb3a16e9b493f3c5f5932))
+* **relayer:** ERC1155 bridging, amount =&gt; amounts ([#14959](https://github.com/resided/taiko-mono/issues/14959)) ([d42c59d](https://github.com/resided/taiko-mono/commit/d42c59d5150c9c41941458e25fac75121d73da76))
+* **relayer:** Error 1406: Data too long for column 'canonical_token_symbol' at row 1 ([#15746](https://github.com/resided/taiko-mono/issues/15746)) ([34272d7](https://github.com/resided/taiko-mono/commit/34272d78be25ca72e1092e6278ea105ef1dc5540))
+* **relayer:** Eth bridge ([#14609](https://github.com/resided/taiko-mono/issues/14609)) ([f5207ae](https://github.com/resided/taiko-mono/commit/f5207ae19c48d9aaa83dab2739cd05d9c2985112))
+* **relayer:** fix queue log when error is nil ([#15861](https://github.com/resided/taiko-mono/issues/15861)) ([c1ed8b7](https://github.com/resided/taiko-mono/commit/c1ed8b7fc974f7feac2c19ae4481bb831000d000))
+* **relayer:** message data  ([#15543](https://github.com/resided/taiko-mono/issues/15543)) ([096bdd8](https://github.com/resided/taiko-mono/commit/096bdd855054f0877e62764120ee6a0765fb2701))
+* **relayer:** Relayer cors flag was not being used ([#14661](https://github.com/resided/taiko-mono/issues/14661)) ([19f35f7](https://github.com/resided/taiko-mono/commit/19f35f74e8a955c2776defe6e5cac48a9b6456a3))
+* **relayer:** Relayer paid gas ([#14748](https://github.com/resided/taiko-mono/issues/14748)) ([b4cb3ff](https://github.com/resided/taiko-mono/commit/b4cb3ffe9d4bad67682a8217621b8b67cb263f65))
+* **relayer:** retroactively fix old relayer messages ([#15691](https://github.com/resided/taiko-mono/issues/15691)) ([6af1daf](https://github.com/resided/taiko-mono/commit/6af1daf50597be6b0f0e008a5e1c7ba57ae7e581))
+* **relayer:** update relayer flag env var name ([#15622](https://github.com/resided/taiko-mono/issues/15622)) ([688a6eb](https://github.com/resided/taiko-mono/commit/688a6eb077d088a475e1a8c63702ed3c9fb44165))
+* **relayer:** wait for confirmations before saving event when indexing ([#15603](https://github.com/resided/taiko-mono/issues/15603)) ([ad5f5e1](https://github.com/resided/taiko-mono/commit/ad5f5e1cf5870d3d3a0cb080fef80938cdf16af9))
+
 ## [0.12.0](https://github.com/taikoxyz/taiko-mono/compare/relayer-v0.11.0...relayer-v0.12.0) (2023-10-18)
 
 
